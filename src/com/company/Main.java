@@ -40,7 +40,7 @@ public class Main {
         ResultSet rs = stmt.executeQuery(sql);
 
         while (rs.next()){
-	    System.out.println("查询表结果");
+	        System.out.println("查询表结果");
             System.out.println(rs.getString("Tables_in_yctest"));
             }
         rs.close();
